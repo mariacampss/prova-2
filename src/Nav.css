@@ -1,0 +1,23 @@
+.Menu{
+    background-color: blue;
+    width: 100%;
+    height: 110px;
+    
+}
+
+.logo{
+    position: static;
+    display: flex;  
+    justify-content: center;
+    padding: 7px;
+}
+
+.elementos-nav {
+    align-items: flex-end;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 10px;
+    font-weight: bold;
+
+} 
