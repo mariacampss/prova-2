@@ -13,18 +13,9 @@ function Footer(){
             <p className='textinho'> 
             2024 Todos os direitos reservados ao povo do 3°/Informática para Internet. <br></br>
                  Contato: osmelhores@sesisenai.com </p> 
-
-         
-
-            
-            
-        
         </div>
-
         
     );
-
-
 
 }
 

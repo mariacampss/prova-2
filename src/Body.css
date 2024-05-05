@@ -1,0 +1,22 @@
+.conteiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.titulos {
+    font-size: 15px;
+}
+
+.imagens {
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+.turma {
+    height: 267px;
+}
+
+.monica {
+    height: 267px;
+}

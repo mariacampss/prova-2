@@ -1,6 +1,5 @@
 import React from 'react';
 import './Nav.css';
-/* import {Link} */
 
 
 function Navbar(){
@@ -12,13 +11,13 @@ function Navbar(){
           </div>  
        {  <div className='elementos-nav'>
             <ul>
-                Home     
+                <a href='/' className='link'>Home</a>
             </ul>
             <ul>
-                Contato   
+                <a href='' className='link'>Contato</a> 
             </ul>
             <ul>
-                Quem Somos    
+                <a href='b' className='link'>Quem Somos</a>
             </ul>
         </div>}
 

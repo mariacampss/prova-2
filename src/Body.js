@@ -11,26 +11,37 @@ function Body(){
 
             <div className='conteiner'>
                 <div className='imagens'>
-                    <div className='MONICAS'>
-                    <img src={require('./FOTO3.jpg')} alt="turma" width={100}></img>
-                     <h3>Povo da Turma da Monica</h3> 
-                    </div>
-
-                     <div className='imagens'>
-                    <div className='Fov'>
-                    <img src={require('./FOTO6.jpg')} alt="aaa" width={100}></img>
-                     <h3>Foveiras e o Teacher Top</h3>
-                    </div>
-
-                    <div className='imagens'>
-                    <div className='Fov'>
-                    <img src={require('./FOTO7.jpg')} alt="B    " width={100}></img>
-                     <h3>As operadoras TIM e Claro + Flanelinha</h3>
-                    </div>
-                    </div>
-
-                    </div>
+                    <img src={require('./FOTO3.jpg')} className='monica' alt="turma da monica" width={170}/>
+                    <h3 className='titulos'>Povo da Turma <br></br>
+                    da Monica</h3>  
                 </div>
+
+                <div className='imagens'>
+                    <img src={require('./FOTO6.jpg')} className='foveiras' alt="foveiras" width={200}/>
+                    <h3 className='titulos'>Foveiras e o <br></br>
+                    Teacher TOP!!!</h3>  
+                </div>
+
+                <div className='imagens'>
+                    <img src={require('./FOTO7.jpg')} alt="operadoras" width={150}/>
+                    <h3 className='titulos'>As Operadoras <br></br> TIM e Claro + <br></br> Flanelinha</h3>  
+                </div>
+        
+                <div className='imagens'>
+                    <img src={require('./FOTO5.jpg')} alt="tigre" width={150}/>
+                    <h3 className='titulos'>Tigrinho Man</h3>  
+                </div>
+
+                <div className='imagens'>
+                    <img src={require('./FOTO4.jpg')} alt="dolly" width={150}/>
+                    <h3 className='titulos'>Dollynho e não <br></br>sei as outras <br></br> duas</h3>  
+                </div>
+
+                <div className='imagens'>
+                    <img src={require('./HOME.jpg')} className='turma' alt="todo mundo" width={150}/>
+                    <h3 className='titulos'>A Turma Mais <br></br>F$#% do <br></br> SESI/SENAI </h3>  
+                </div>
+
             </div>
         </div>
         
