@@ -5,6 +5,7 @@ import Navbar from './Navbar.js';
 import Body from './Body'; 
 import Footer from './Footer.js';
 import QuemSomos from './QuemSomos.js';
+import Contato from './Contato.js';
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
     <BrowserRouter>
       <Routes>
       <Route path='/' element={<Body />} />
+      <Route  path='a' element={<Contato />} />
       <Route path='b' element={<QuemSomos />} />
       </Routes>
     </BrowserRouter>

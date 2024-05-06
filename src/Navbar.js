@@ -14,7 +14,7 @@ function Navbar(){
                 <a href='/' className='link'>Home</a>
             </ul>
             <ul>
-                <a href='' className='link'>Contato</a> 
+                <a href='a' className='link'>Contato</a> 
             </ul>
             <ul>
                 <a href='b' className='link'>Quem Somos</a>
@@ -22,12 +22,7 @@ function Navbar(){
         </div>}
 
         </nav>
-
-        
     );
-
-
-
 }
 
 

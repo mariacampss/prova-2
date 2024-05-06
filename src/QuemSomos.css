@@ -1,0 +1,14 @@
+.QuemSomos {
+    text-align: left;
+    position: relative;
+    justify-content: left;
+}
+
+.textos {
+    font-size: 14px;
+}
+
+.cor {
+    background-color: rgb(11, 11, 160);
+    height: 70px;
+}
